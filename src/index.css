@@ -1,0 +1,531 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&display=swap");
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Barlow Condensed", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-title-medium {
+  font-size: 1.1vw;
+}
+
+.font-large {
+  font-size: 2.25vw;
+  font-weight: 900;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.text-red {
+  color: #ff0000;
+}
+
+.text-orange {
+  color: #f5811e;
+}
+
+.text-green {
+  color: #13a042;
+}
+
+.text-pink {
+  color: #ff3399;
+}
+
+.text-red.cyen {
+  color: #dd3f3e;
+}
+
+.text-blue {
+  color: #1b4b90;
+}
+
+.border-text-white {
+  text-shadow: 0.065vw 0.065vw #fff, -0.065vw 0.065vw #fff,
+    0.065vw -0.065vw #fff, -0.065vw -0.065vw #fff;
+}
+
+.border-text-blue {
+  text-shadow: 0.065vw 0.065vw #5ecff8, -0.065vw 0.065vw #5ecff8,
+    0.065vw -0.065vw #5ecff8, -0.065vw -0.065vw #5ecff8;
+}
+
+.border-text-red {
+  text-shadow: 0.065vw 0.065vw #ff0000, -0.065vw 0.065vw #ff0000,
+    0.065vw -0.065vw #ff0000, -0.065vw -0.065vw #ff0000;
+}
+
+.main-wrapper,
+.main-wrapper-thong-ke,
+.chaomung-wrapper {
+  background-image: url("../src/assets/nencheckin.png");
+  width: 100%;
+  height: 100vh;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.chaomung-wrapper {
+  background-image: url("../src/assets/nencheckinmobile.png");
+}
+
+.main-wrapper-thong-ke {
+  background-image: url("../src/assets/nencheckinmobile.png");
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-100-v {
+  width: 100vw;
+}
+
+.h-100-v {
+  height: 100vh;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.title-wrapper {
+  text-align: center;
+  width: 100%;
+}
+
+.px-4 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.ant-list-empty-text {
+  max-height: 150px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.text-info {
+  font-size: 25px;
+  color: #002463;
+}
+
+.text-green {
+  color: #198754 !important;
+}
+
+.text-red {
+  color: #dc3545 !important;
+}
+
+.scanner-wrapper {
+  width: 320px;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+h1,
+h2 {
+  color: #002463;
+}
+
+h1 {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.title-wrapper {
+  margin-bottom: 0.6rem;
+}
+
+.title-wrapper h2 {
+  font-size: 2vw;
+  margin-bottom: 2.5vh;
+}
+
+.ant-list-items {
+  max-height: 155px !important;
+}
+
+/* list vitual  */
+.trienlam-wrapper {
+  background-image: url("../src/assets/Nen18.11.1.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  /* justify-content: center; */
+}
+
+.trien-lam-button {
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  color: #fb0207;
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  /* width: 20px;
+  height: auto; */
+  padding: 10px 20px;
+  background-color: #fffe67;
+}
+
+.trienlam-banner {
+  width: 70%;
+}
+
+.trienlam-wrapper .video-wrapper {
+  width: 100%;
+  max-width: 800px;
+}
+
+.trienlam-wrapper .video-wrapper video {
+  border: 8px solid #64dafb;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.user-manage-wrapper {
+  background-image: url("../src/assets/nencheckinmobile.png");
+  /* background: red; */
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.list-v {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item-v {
+  cursor: pointer;
+  width: calc(100% / 6 - 10px);
+
+  /* margin-lef; */
+  display: block;
+}
+
+.item-v:hover {
+  opacity: 0.5;
+}
+
+.item-v img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  height: 500px;
+}
+
+.item-v p {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  color: #002463;
+  text-decoration: underline;
+}
+
+/* table  */
+
+table td,
+th {
+  font-size: 1vw;
+  text-align: center;
+}
+
+thead th {
+  font-weight: 400;
+  background: #8a97a0;
+  color: #fff;
+  text-align: center;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 5px;
+}
+
+tr:nth-child(even) {
+  background: #e8eeef;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 15px;
+  font-weight: 300;
+}
+
+tfoot tr {
+  background: none;
+}
+
+tfoot td {
+  padding: 10px 2px;
+  font-size: 0.8em;
+  font-style: italic;
+  color: #8a97a0;
+}
+
+.hidden-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* statistical */
+.statistical {
+  /* width: 400px */
+  padding: 1vh 1vw;
+  padding-top: 0;
+}
+
+.statistical .listCountUnit {
+  max-height: 50vh;
+  overflow-y: auto;
+  background-color: #f4f7f8;
+  margin-top: 2.35vh;
+}
+
+.statistical p {
+  font-size: 1vw;
+}
+
+/* end  */
+
+.tabs {
+  display: flex;
+  width: 100%;
+  max-width: 45vw;
+  white-space: nowrap;
+  overflow-x: scroll;
+  padding-bottom: 0.5rem;
+}
+
+.tab {
+  padding: 0.6vh 1vw;
+  border: 1px solid #888;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 1vw;
+}
+
+.tab:first-child {
+  margin-left: 0px !important;
+}
+
+.tab.active {
+  color: #fff;
+  background-color: rgb(255, 174, 0);
+}
+
+/* edit  */
+
+.edit {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+/* common  */
+
+.pe-4 {
+  padding-right: 1rem;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  color: blue;
+  border-color: blue;
+}
+
+.btn-danger {
+  color: red;
+  border-color: red;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.persion-info::-webkit-scrollbar {
+  width: 0.5vw;
+  background: transparent;
+}
+
+.persion-info::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 0.2vw;
+}
+
+.tabs::-webkit-scrollbar {
+  height: 0.85vh;
+}
+
+.tabs::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.tabs::-webkit-scrollbar-thumb {
+  background: red;
+  /* border-radius: 0.2vw; */
+}
+
+@media (min-width: 900px) {
+  .gttrienlam {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .trienlam-wrapper .w-100.h-100 {
+    transform: translateY(4vh) !important;
+  }
+
+  .trienlam-wrapper video {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .trienlam-wrapper .w-100.h-100 {
+    transform: translateY(3vh) !important;
+  }
+
+  .trienlam-wrapper video {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 550px) {
+  .trienlam-wrapper .w-100.h-100 {
+    transform: translateY(2vh) !important;
+  }
+
+  .trienlam-wrapper video {
+    width: 45vw;
+  }
+}
+
+@media (max-width: 3000px) {
+  .checkIn-info-wrap {
+    max-height: 26vh !important;
+  }
+}
+
+@media (max-width: 2200px) {
+  .checkIn-info-wrap {
+    max-height: 25vh !important;
+  }
+}
+
+@media (max-width: 1910px) {
+  .font-title-medium {
+    font-size: 1vw;
+  }
+}
+
+@media (max-width: 1500px) {
+  .checkIn-info-wrap {
+    max-height: 24vh !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .checkIn-info-wrap {
+    max-height: 23vh !important;
+  }
+}
+
+.scanner {
+  width: 95%;
+
+  object-fit: cover;
+}
+
+.ant-select-selector {
+  height: 3vh !important;
+  display: flex;
+  align-items: center;
+  font-size: 0.9vw;
+}
+
+.ant-select-arrow {
+  font-size: 0.9vw;
+}
+
+.ant-select-selection-item {
+  overflow: unset;
+}
+
+.main-wrapper-quay-so {
+  background-image: url("../src/assets/nenquayso.png");
+}
+
+.primary-button-main {
+  /* border-radius: 1vw; */
+  color: #000052;
+  /* background-color: orange; */
+  padding: 10px 20px;
+  /* outline: none;
+  border-color: red; */
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  font-weight: 550;
+  background-image: url("./assets/nut.png");
+}

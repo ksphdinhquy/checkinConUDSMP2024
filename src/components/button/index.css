@@ -1,0 +1,43 @@
+.button {
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  color: #fb0207;
+  border-radius: 15px;
+  font-size: calc(.5em + 1vw);
+  cursor: pointer;
+  width: calc(.5em + 10vw);
+  height: auto;
+  padding: calc(.2vw + .2vh) 0;
+  background-color: #fffe67;
+}
+.button:hover, .button-link:hover {
+  color: #fb0207;
+  opacity: .7;
+}
+@media(max-width : 2500px) {
+  .button {
+    border-radius: 10px;
+  }
+ }
+ @media(max-width : 1400px) {
+  .button {
+    border-radius: 5px;
+  }
+ }
+ @media(max-width : 800px) {
+  .button {
+    font-size: calc(.5em + .5vw);
+  }
+ }
+ @media(max-width : 550px) {
+  .button {
+    margin-top: 0px !important;
+  }
+ }
+
+ @media(max-width : 360px) {
+  .button {
+    width: calc(.5em + 12.5vw);
+  }
+ }

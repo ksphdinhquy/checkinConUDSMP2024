@@ -1,0 +1,145 @@
+.random {
+  display: flex;
+  width: 100%;
+  padding: 0 7vw;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.random .ticket {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  /* border: 1px solid #ef5658; */
+  width: 47%;
+  margin: 2vh 0;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Barlow Condensed", sans-serif;
+}
+.random .ticket .stub,
+.random .ticket .check {
+  box-sizing: border-box;
+}
+.random .stub {
+  background: #fff;
+  position: relative;
+  /* border: 1px solid #ef5658; */
+  border-left: none;
+  /* margin-left: -1px; */
+  /* height: 11.5vh; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 1.2vw;
+  border-top-right-radius: 4vh;
+  border-bottom-right-radius: 4vh;
+  border: 2px solid #dd3f3e;
+  border-left: none;
+}
+/* .random .stub:before {
+  content: "";
+  position: absolute
+  top: 0;
+  right: 0;
+  border-top: 0.75vw solid #dd3f3e;
+  border-left: 0.75vw solid #fff;
+  width: 0;
+}
+.random .stub:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom: 0.75vw solid #dd3f3e;
+  border-left: 0.75vw solid #fff;
+  width: 0;
+} */
+
+.random .check {
+  background: #fff;
+  flex: 1;
+  padding: 1vw 1.2vw;
+  /* height: 5.5vh; */
+  position: relative;
+  /* border: 1px solid #ef5658; */
+  border-right: none;
+  display: flex;
+  text-align: center;
+  /* align-items: center; */
+  flex-direction: column;
+  border-top-left-radius: 4vh;
+  border-bottom-left-radius: 4vh;
+  border: 2px solid #dd3f3e;
+  border-right: none;
+}
+/* .random .check:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 0.75vw solid #dd3f3e;
+  border-right: 0.75vw solid #fff;
+  width: 0;
+}
+.random .check:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 0.75vw solid #dd3f3e;
+  border-right: 0.75vw solid #fff;
+  width: 0;
+} */
+.random .check .big,
+.item-quay-so .big {
+  font-size: 1.8vw;
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #dd3f3e;
+  margin-bottom: 0.5vh;
+}
+
+.random .check .small,
+.item-quay-so .small {
+  color: #777;
+  font-size: 0.75vw;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.quay-ngay-button {
+  outline: none;
+  cursor: pointer;
+  width: 4vw;
+  height: 4vw;
+  background-color: red;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 0.85vw;
+  border: 1px solid #fff;
+}
+
+.quay-ngay-button:hover {
+  opacity: 0.7;
+}
+
+.quay-ngay-button:disabled {
+  /* color: #777;
+  border-color: #777; */
+  background-color: #777;
+  cursor: default;
+}
+
+.modal-chuc-mung-giai {
+  animation: modal-zoom 0.2s linear;
+}
+
+@keyframes modal-zoom {
+  0% {
+    scale: 1.25;
+  }
+  100% {
+    scale: 1;
+  }
+}
